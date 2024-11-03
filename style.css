@@ -1,0 +1,41 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  background-color: antiquewhite;
+}
+.Bold {
+  font-weight: bold;
+}
+.underline {
+  text-decoration: underline;
+}
+
+textarea {
+  width: 90%;
+  height: 20%;
+  font-size: 16px;
+  padding: 10px;
+  margin-bottom: 30px;
+}
+
+.chars_num {
+  font-size: 1em;
+  color: black;
+}
+
+button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 10px;
+  background-color: bisque;
+  margin-right: 15px;
+  transition: 1s;
+  cursor: pointer;
+}
+button:hover {
+  background-color: rgb(222, 192, 146);
+}
